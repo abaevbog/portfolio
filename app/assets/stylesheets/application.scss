@@ -13,3 +13,48 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "bootstrap";
+
+
+ #my_photo{
+     height: auto;
+     width:100%
+ }
+
+ img{
+    width: 80%;
+ }
+
+
+.row{
+    margin-left:20px;
+    margin-right: 20px;
+    border:1px solid black;
+}
+
+.col-sm-8{
+    text-align: center;
+}
+.jumbotron{
+    height:100%
+}
+
+.media{
+    height: 200px;
+    margin-bottom: 10px
+}
+.media > img{
+    height:100%;
+    width:20%;
+    object-fit: contain;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(194, 191, 191);
+    height:10%;
+    padding-top:5%;
+}
+
+
