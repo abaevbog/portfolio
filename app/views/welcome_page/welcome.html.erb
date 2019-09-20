@@ -1,17 +1,15 @@
 
   
         <div class="row no-gutters">
-            <div class="col-sm-4" id="my_photo">
-                <%= image_tag("/images/#{@picture}") %>
-            </div>
-            <div class="col-sm-8 ">
-                <div class="jumbotron jumbotron-fluid">
-                        <h1 class="display-4">Bogdan Abaev</h1>
-                        <p class="lead" style="white-space: pre;">Hi there! I am Computer Science/Mathematics double major in Grinnell College, class of May 2020. 
-                        I am a student from Nizhny Novgorod, Russia, and a passionate software engineer. My hobbies are boxing, and learing</p>                      
-                </div>
-            </div>
 
+            <div class="media" id ="welcome">
+                <%= image_tag("/images/#{@picture}", class:"align-self-center mr-3") %>
+                <div class="media-body">
+                    <h5 class="mt-0 text-center">Center-aligned media</h5>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                    <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              </div>
+            </div>
         </div>
 
         <div class="row no-gutters" style='margin-top:5%;margin-bottom:5%'>

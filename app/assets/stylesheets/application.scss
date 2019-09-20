@@ -28,8 +28,8 @@
 
 
 .row{
-    margin-left:20px;
-    margin-right: 20px;
+    //margin-left:20px;
+    //margin-right: 20px;
     border:1px solid black;
 }
 
@@ -40,11 +40,13 @@
     height:100%
 }
 
-.media{
+
+
+#project{
     height: 200px;
     margin-bottom: 10px
 }
-.media > img{
+#project > img{
     height:100%;
     width:20%;
     object-fit: contain;
@@ -57,7 +59,8 @@ footer{
     padding-top:5%;
 }
 
+.container{
+    padding-top:6%;
+    padding-bottom:6%;
+}
 
-body { 
-    padding-top: 5%;
- }
