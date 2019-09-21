@@ -22,34 +22,14 @@
      width:100%
  }
 
- img{
-    width: 80%;
- }
 
 
 .row{
-    //margin-left:20px;
-    //margin-right: 20px;
-    border:1px solid black;
+    //border:1px solid black;
 }
 
 .col-sm-8{
     text-align: center;
-}
-.jumbotron{
-    height:100%
-}
-
-
-
-#project{
-    height: 200px;
-    margin-bottom: 10px
-}
-#project > img{
-    height:100%;
-    width:20%;
-    object-fit: contain;
 }
 
 footer{
@@ -64,3 +44,6 @@ footer{
     padding-bottom:6%;
 }
 
+p.font {
+    font-family: Georgia, Times, "Times New Roman", serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400;
+}
